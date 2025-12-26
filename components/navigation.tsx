@@ -40,8 +40,8 @@ export function Navigation() {
   const handleDownloadCV = () => {
     // Check if CV file exists
     const link = document.createElement("a")
-    link.href = "/new FullStack_Web_Developer_CV.pdf"
-    link.download = "Ahmed_Olayinka_FullStack_Developer_CV.pdf"
+    link.href = "/AHMED%20OLAYINKA%20%23CV%20Resume%20(1).pdf"
+    link.download = "Ahmed Olayinka CV.pdf"
     
     // Add error handling
     link.onerror = () => {
