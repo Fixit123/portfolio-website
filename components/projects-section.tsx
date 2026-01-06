@@ -41,6 +41,17 @@ export function ProjectsSection() {
       featured: true,
       gradient: "from-green-500 to-teal-500",
     },
+    {
+      title: "CITIHUB-IT",
+      description:
+        "Enterprise IT infrastructure solutions website featuring modern design, comprehensive service offerings, and client testimonials. Showcases cloud solutions, network infrastructure, cybersecurity, and managed services for 500+ enterprise clients worldwide.",
+      image: "/image/citihub-it.com.webp",
+      technologies: ["React", "Next.js", "Tailwind CSS", "Vercel"],
+      liveUrl: "https://www.citihub-it.com/",
+      githubUrl: null, // Client project - no code access
+      featured: true,
+      gradient: "from-indigo-600 to-blue-600",
+    },
   ]
 
   const containerVariants = {
